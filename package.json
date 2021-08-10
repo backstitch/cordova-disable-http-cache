@@ -1,9 +1,9 @@
 {
-  "name": "cordova-disable-http-cache",
+  "name": "cordova-disable-http-cache-custom",
   "version": "1.0.0",
   "description": "Cordova plugin to disable caching of HTTP requests and responses.",
   "cordova": {
-    "id": "cordova-disable-http-cache",
+    "id": "cordova-disable-http-cache-custom",
     "platforms": [
       "android",
       "ios"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koenoe/cordova-disable-http-cache.git"
+    "url": "git+https://github.com/backstitch/cordova-disable-http-cache.git"
   },
   "keywords": [
     "ecosystem:cordova",
@@ -21,7 +21,7 @@
   "author": "Koen Romers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koenoe/cordova-disable-http-cache/issues"
+    "url": "https://github.com/backstitch/cordova-disable-http-cache/issues"
   },
-  "homepage": "https://github.com/koenoe/cordova-disable-http-cache#readme"
+  "homepage": "https://github.com/backstitch/cordova-disable-http-cache#readme"
 }

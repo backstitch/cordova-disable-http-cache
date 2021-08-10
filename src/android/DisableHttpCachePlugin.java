@@ -1,4 +1,4 @@
-package com.koenromers.cordova;
+package com.backstitch.cordova;
 
 import android.util.Log;
 import android.webkit.WebSettings;
