@@ -11,7 +11,7 @@
   [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onPause) name:UIApplicationDidEnterBackgroundNotification object:nil];
 }
 
-- (DisableHttpCachePlugin*)initWithWebView:(UIWebView*)theWebView {
+- (DisableHttpCachePlugin*)initWithWebView:(WKWebView*)theWebView {
   return self;
 }
 
