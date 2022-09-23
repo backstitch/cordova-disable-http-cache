@@ -4,7 +4,6 @@ import android.util.Log;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.CookieManager;
-import android.webkit.CookieSyncManager;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CordovaInterface;
@@ -19,7 +18,6 @@ public class DisableHttpCachePlugin extends CordovaPlugin {
     super.initialize(cordova, webView);
     WebView wv = (WebView) webView.getView();
     WebSettings ws = wv.getSettings();
-    CookieSyncManager.createInstance(this);
     CookieManager cookieManager = CookieManager.getInstance();
     cookieManager.setAcceptCookie(true);
     ws.setAppCacheEnabled(true);
