@@ -24,7 +24,6 @@
     NSSet *dataTypes = [NSSet setWithArray:@[WKWebsiteDataTypeDiskCache,
                                              WKWebsiteDataTypeOfflineWebApplicationCache,
                                              WKWebsiteDataTypeMemoryCache,
-                                             WKWebsiteDataTypeCookies,
                                              WKWebsiteDataTypeSessionStorage,
                                              WKWebsiteDataTypeIndexedDBDatabases,
                                              WKWebsiteDataTypeWebSQLDatabases
@@ -62,7 +61,6 @@
       NSSet *dataTypes = [NSSet setWithArray:@[WKWebsiteDataTypeDiskCache,
                                                WKWebsiteDataTypeOfflineWebApplicationCache,
                                                WKWebsiteDataTypeMemoryCache,
-                                               WKWebsiteDataTypeCookies,
                                                WKWebsiteDataTypeSessionStorage,
                                                WKWebsiteDataTypeIndexedDBDatabases,
                                                WKWebsiteDataTypeWebSQLDatabases
